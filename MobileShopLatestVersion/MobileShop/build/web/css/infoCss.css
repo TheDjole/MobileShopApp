@@ -1,0 +1,15 @@
+body {
+    margin-left: 0px;
+}
+
+.content {
+   
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 800px;
+    border: 1px solid black;
+}

@@ -1,0 +1,70 @@
+body {
+    margin-left: 0px;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+    border: 1px solid black;
+   
+}
+
+div#prijava {
+    
+    margin: 10px;
+    border: 2px solid red;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lavender;
+    float: left;
+}
+
+div#prijava p {
+    font-size: 12px;
+}
+
+
+
+div#prijava table {
+    border-collapse: collapse;
+}
+
+div#prijava table td {
+    padding: 8px;
+    text-align: left;
+}
+
+div#register {
+    float: right;
+    width: 700px;
+    border: 1px solid gray;
+    background-color: lavender;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div#register table {
+     
+     font-size: 15px;
+     
+    
+}
+
+div#register table td {
+    padding: 10px;
+    width: 150px;
+    vertical-align: middle;
+    text-align: left;
+    padding-right: 60px;
+    
+}

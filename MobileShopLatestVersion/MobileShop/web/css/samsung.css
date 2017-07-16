@@ -1,0 +1,80 @@
+div.div-head
+{
+    margin-top: 20px;
+    white-space: nowrap;
+    
+}
+
+div.div-head img{
+    height: 80px;
+    vertical-align: middle;
+    font-family: cursive;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    padding-top: 2px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+body {
+    
+    margin: 0px;
+}
+
+div.profil-phone
+{
+    margin-top: -60px;
+    width: 800px;
+    height: 800px;
+    float:right;
+    margin-right: 50px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+div#image-div {
+     float: left;
+    margin-right: 55px;
+    
+}
+
+.content select
+{
+    width: 250px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid red;
+    
+}
+
+.content select:active {
+    font-size: 14px;
+    overflow: auto;
+    
+}
+
+.profil-phone input[type=button] {
+    padding: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+    
+    
+
+

@@ -1,0 +1,97 @@
+
+body {
+    margin-left: 0px;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+    border: 1px solid black;
+   
+}
+
+div#navigation-profil {
+    border: 1px solid blue;
+    width: 200px;
+    float:left;
+    margin-top: 20px;
+}
+
+div#navigation-profil table {
+    border-collapse: collapse;
+    width: 150px;
+}
+
+div#navigation-profil table td {
+    padding: 5px;
+}
+
+div#navigation-profil button {
+    width: 150px;
+    margin-top: 10px;
+    border: 0px;
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+    outline:none;
+    font-size: 15px;
+}
+
+button:hover {
+    color: orange;
+}
+button:focus {
+    color:lightblue;
+}
+
+div#profil-load 
+{
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: auto;
+    height: 400px;
+}
+
+div#profil-load table tr td {
+    padding: 15px;
+    text-align: left;
+}
+
+p#info-bar
+{
+     margin-left: 300px;
+     font-size: 15px;
+     padding: 2px;
+     text-align: center;
+     color: green;
+     font-weight: bold;
+}
+
+table.kr td {
+    width: 100px;
+}
+
+div#profil-load table tr td input {
+    width: 200px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+div#profil-load table tr td a {
+   text-decoration: none;
+   color:black;
+}
+
+div#profil-load table tr td a:hover {
+   text-decoration: none;
+   color:red;
+   text-decoration: underline;
+}

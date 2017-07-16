@@ -1,0 +1,61 @@
+body {
+    margin-left: 0px;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+div#selectdiv {
+    border: 2px solid black;
+    width:350px;
+    padding: 5px;
+    float: left;
+}
+
+div#selectdiv select {
+    width: 300px;
+    font-size: 18px;
+}
+
+div#selectdiv table tr td
+{
+    padding: 5px;
+}
+
+
+div#showPhone 
+{
+     border: 2px solid blue;
+     float: left;
+     margin-left: 15px;
+     width: 900px;
+     height: 400px;
+     padding: 10px;
+}
+
+p#messageBar {
+  
+  font-size: 18px;
+  text-align: center;  
+}
+
+div#showPhone table {
+    border-collapse: collapse;
+    border: 2px dashed red;
+    font-size: 17px;
+}
+
+div#showPhone table tr td {
+    padding: 5px;
+    width: 800px;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+.Osnovni-info {
+   float: right;
+   margin-right: 70px;
+   align-content: center;
+   text-align: center;
+}
+
+.sadrzaj {
+    margin-top: 0px;
+    height: 1000px;
+}
+
+table {
+    
+    border: 1px solid lightblue;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table tr {
+    border: 1px solid lightblue;
+}
+table tr td {
+    border: 1px solid lightblue;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.podnaslov 
+{
+    text-align: center;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.content img 
+{
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    margin-left: 0px;
+}
+
+.Osnovni-info input[type=button] {
+    padding: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td#naslov {
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    border: 2px solid lightblue;
+}

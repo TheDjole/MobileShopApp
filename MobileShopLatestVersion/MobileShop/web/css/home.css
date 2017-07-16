@@ -1,0 +1,225 @@
+input[type=button] {
+    display: table-row;
+    color:black;
+    background-color: lightblue;
+    border: 1px solid white;
+    padding: 5px;
+    height: 45px;
+    width: 170px;
+    cursor: pointer;
+    outline: none;
+}
+button 
+{
+    display: table-row;
+    color:black;
+    background-color: lightblue;
+    border: 1px solid white;
+    padding: 5px;
+    height: 45px;
+    width: 170px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    
+    border: 1px solid black;
+    color:black;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body 
+{
+    background-color: white;
+    margin: 0px;
+    
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1500px;
+    border: 1px solid black;
+}
+
+.header-class 
+{
+   background-color: lightblue;
+   color:black;
+   padding: 1px;
+}
+
+.header-class h3 
+{
+    text-align: left;
+    font-family: monospace, cursive;
+    padding-left:10px;
+}
+
+.header-class img {
+    height: 35px;
+    width: 100px;
+}
+
+.heared-class-con 
+{
+    top:0px;
+    width: 100%;
+    position: fixed;
+}
+
+div.container 
+{
+    border: 1px solid red;
+    width: 85%;
+    height: 1000px;
+    margin-left:200px;
+    display: table;
+   
+}
+.proizvodjaci 
+{
+    float:left;
+}
+
+div.container ul {
+    width: 100px;
+    display: inline;
+    
+}
+
+div.container ul li {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+div.item
+{
+    margin-left: 25px;
+    width: 225px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+div.item img
+{
+    width: 200px;
+    height: 220px;
+}
+
+button.specifikacije {
+    height: 20px;
+    border:none;
+    background-color: inherit;
+    margin-bottom: 5px;
+    padding: 2px;
+    outline: none;
+    overflow: visible;
+}
+
+button.specifikacije:hover {
+    color:red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+li {
+    float: left;
+    padding-left:10px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: cornflowerblue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightgray;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.item a:hover {
+    background-color: white;
+}
+
+.item a input:hover {
+  background-color: lightgreen;
+  color:black;
+}
+input[type=button]
+{
+    display: table-row;
+    color:black;
+    background-color: lightblue;
+    border: 1px solid white;
+    padding: 5px;
+    height: 45px;
+    width: 170px;
+    cursor: pointer;
+    outline: none;
+    overflow: visible;
+}
+input[type=button].specifikacije {
+    height: 20px;
+    border:none;
+    background-color: inherit;
+    margin-bottom: 5px;
+    padding: 2px;
+    outline: none;
+}
+input[type=button].specifikacije:hover {
+    color:red;
+}

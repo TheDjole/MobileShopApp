@@ -1,0 +1,114 @@
+body 
+{
+    margin-left:0px;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 700px;
+    border: 1px solid black;
+    
+}
+
+
+div#choiceone
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: lightblue;
+    
+}
+
+div#choiceone select {
+    width: 200px;
+    align-content: center;
+    border-radius: 15px;
+    outline:none;
+}
+
+div#korisnici 
+{
+    width: 350px;
+    float: left;
+    padding: 5px;
+    height: 600px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+div#choicetwo
+{
+    border: 1px solid blue;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+div#displayUsers 
+{
+    border-top: 2px solid black;
+    height: 800px;
+    margin-top: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+
+div#displayUsers table {
+    width: inherit;
+    border-collapse: collapse;
+    border: 1px solid plum;
+}
+div#displayUsers table tr td {
+    text-align: center;
+    width: 175px;
+    border: 1px solid plum;
+    padding: 3px;
+}
+
+div#showProfil 
+{
+    border: 2px solid plum;
+    float: left;
+    margin-left:10px;
+    width: 900px;
+    height: 600px;
+    padding: 10px;
+    background-color: lavenderblush;
+    overflow: auto;
+}
+
+div#showProfil table {
+    border: 1px solid black;
+    width: inherit;
+    border-collapse: collapse;
+}
+
+div#showProfil table tr td {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+div#showProfil table caption {
+    font-size: 20px;
+    font-style: italic;
+}
+
+div#showProfil table tr td a {
+    color:black;
+    text-decoration: none;
+}
+div#showProfil table tr td a:hover {
+    color:red;
+}
+
+
+

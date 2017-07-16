@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 27, 2017 12:32:07 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Model" table="model" catalog="mobile_shop" optimistic-lock="version">
+        <id name="modelId" type="java.lang.Integer">
+            <column name="model_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="baterija" class="entity.Baterija" fetch="select" lazy="false">
+            <column name="baterija_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="bojeEkrana" class="entity.BojeEkrana" fetch="select" lazy="false">
+            <column name="brojboja_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="dualsim" class="entity.Dualsim" fetch="select" lazy="false">
+            <column name="dualsim_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="ekran" class="entity.Ekran" fetch="select" lazy="false">
+            <column name="ekran_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="eksternamemorija" class="entity.Eksternamemorija" fetch="select" lazy="false">
+            <column name="eksternamemorija_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="internaMemorija" class="entity.InternaMemorija" fetch="select" lazy="false">
+            <column name="interna_memorija_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="kamera" class="entity.Kamera" fetch="select" lazy="false">
+            <column name="kamera_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="mreze" class="entity.Mreze" fetch="select" lazy="false">
+            <column name="mreze_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="operativnisistem" class="entity.Operativnisistem" fetch="select" lazy="false">
+            <column name="operativniSistem_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="proizvodjac" class="entity.Proizvodjac" fetch="select" lazy="false">
+            <column name="proizvodjac_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="rammemorija" class="entity.Rammemorija" fetch="select" lazy="false">
+            <column name="RAMmemorija_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="rezolucijaEkrana" class="entity.RezolucijaEkrana" fetch="select" lazy="false">
+            <column name="rezolucija_ekrana_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="rezolucijaKamere" class="entity.RezolucijaKamere" fetch="select" lazy="false">
+            <column name="rezolucija_kamere_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="status" class="entity.Status" fetch="select" lazy="false">
+            <column name="status_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tastatura" class="entity.Tastatura" fetch="select" lazy="false">
+            <column name="tastatura_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="velicinaEkrana" class="entity.VelicinaEkrana" fetch="select" lazy="false">
+            <column name="velicina_ekrana_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="verzijaOs" class="entity.VerzijaOs" fetch="select" lazy="false">
+            <column name="verzija_id" not-null="true" />
+        </many-to-one>
+        <property name="nazivModela" type="string">
+            <column name="nazivModela" length="80" not-null="true" />
+        </property>
+        <property name="dimenzijeTelefona" type="string">
+            <column name="dimenzije_telefona" length="45" not-null="true" />
+        </property>
+        <property name="tezinaTelefona" type="int">
+            <column name="tezina_telefona" not-null="true" />
+        </property>
+        <property name="referencaSlike" type="string">
+            <column name="referenca_slike" length="100" not-null="true" />
+        </property>
+        <property name="cena" type="int">
+            <column name="cena" not-null="true" />
+        </property>
+        <set name="stavkas" table="stavka" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="model_id" not-null="true" />
+            </key>
+            <one-to-many class="entity.Stavka" />
+        </set>
+    </class>
+</hibernate-mapping>

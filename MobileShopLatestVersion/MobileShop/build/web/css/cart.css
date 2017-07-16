@@ -1,0 +1,109 @@
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+body {
+    margin-left: 0px;
+}
+
+.content table
+{
+    width: inherit;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.content table tr td {
+   
+    width: 230px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.content table th {
+   
+    width: 230px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.content caption img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.content table tr td img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.content table tr td a 
+{
+    text-decoration: none;
+    color:red;
+}
+
+.content table tr td a:visited
+{
+    color:red;
+}
+
+div#actions {
+    
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+div#actions a {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    background-color: lightblue;
+}
+
+div#actions a:visited {
+   color:black; 
+}
+
+.content caption div 
+{
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 27, 2017 12:32:07 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Korisnik" table="korisnik" catalog="mobile_shop" optimistic-lock="version">
+        <id name="korisnikId" type="java.lang.Integer">
+            <column name="korisnik_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="prava" class="entity.Prava" fetch="select">
+            <column name="pravo_id" not-null="true" />
+        </many-to-one>
+        <property name="ime" type="string">
+            <column name="ime" length="45" not-null="true" />
+        </property>
+        <property name="prezime" type="string">
+            <column name="prezime" length="45" not-null="true" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="45" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="45" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="45" not-null="true" />
+        </property>
+        <property name="adresa" type="string">
+            <column name="adresa" length="100" not-null="true" />
+        </property>
+        <property name="grad" type="string">
+            <column name="grad" length="45" not-null="true" />
+        </property>
+        <property name="telefon" type="string">
+            <column name="telefon" length="45" not-null="true" />
+        </property>
+        <property name="postanskiBroj" type="string">
+            <column name="postanski_broj" length="45" not-null="true" />
+        </property>
+        <set name="poruzbinas" table="poruzbina" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="korisnik_id" not-null="true" />
+            </key>
+            <one-to-many class="entity.Poruzbina" />
+        </set>
+    </class>
+</hibernate-mapping>

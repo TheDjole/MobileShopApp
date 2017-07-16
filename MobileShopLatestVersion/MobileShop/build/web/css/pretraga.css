@@ -1,0 +1,57 @@
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1000px;
+    border: 1px solid black;
+    display: block;
+    clear: both;
+    
+}
+
+body {
+    margin-left: 0px;
+}
+
+#left {
+    float:left;
+    border: 2px solid red;
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+}
+
+#left select {
+    width: inherit;
+    
+}
+
+#left div#image-div {
+    float: left;
+    margin-right: 55px;
+}
+
+#right {
+    float: right;
+    border: 2px solid blue;
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+    
+}
+
+#right select {
+    
+    width: inherit;
+}
+
+#right div#image-div {
+    float: left;
+    margin-right: 55px;
+}
+
+

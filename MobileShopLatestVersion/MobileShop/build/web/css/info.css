@@ -1,0 +1,17 @@
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+body {
+    margin-left: 0px;
+}
+
+

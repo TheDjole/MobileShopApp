@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 27, 2017 12:32:07 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Prava" table="prava" catalog="mobile_shop" optimistic-lock="version">
+        <id name="pravaId" type="java.lang.Integer">
+            <column name="prava_id" />
+            <generator class="identity" />
+        </id>
+        <property name="pravo" type="string">
+            <column name="pravo" length="45" not-null="true" />
+        </property>
+        <set name="korisniks" table="korisnik" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="pravo_id" not-null="true" />
+            </key>
+            <one-to-many class="entity.Korisnik" />
+        </set>
+    </class>
+</hibernate-mapping>

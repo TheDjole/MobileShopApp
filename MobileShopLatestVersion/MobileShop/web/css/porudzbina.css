@@ -1,0 +1,55 @@
+.content
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+body {
+    margin-left: 0px;
+}
+
+.content table {
+    width: inherit;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+}
+
+.content table tr td {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.content table tr td img{
+    width: 50px;
+    height: 50px;
+}
+.content table tr td a 
+{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.content table tr td a:hover:before 
+{
+    color:red;
+    content: "Prikazi model";
+}
+
+.content table tr td a:hover span {
+    display: none;
+}
+
+
